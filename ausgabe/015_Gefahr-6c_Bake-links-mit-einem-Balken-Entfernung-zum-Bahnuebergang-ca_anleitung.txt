@@ -1,0 +1,33 @@
+6c: Bake links mit einem Balken – Entfernung zum Bahnübergang ca. 80 m  (Gefahrenzeichen_6c_I_links.svg)
+Nr. 15 in --liste, Groesse 60 x 190 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 015_Gefahr-6c_Bake-links-mit-einem-Balken-Entfernung-zum-Bahnuebergang-ca_Stufen.stl
+Dicke 1.2-2.4 mm, ca. 22 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  ROT
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 015_Gefahr-6c_Bake-links-mit-einem-Balken-Entfernung-zum-Bahnuebergang-ca_Multicolor.3mf
+Dicke 3.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 42 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: ROT
+  Slot 3: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=30.1 / y=95.0 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+ACHTUNG: Die Halterplatte passt nicht ganz auf dieses Schild.
+
+Flaechen je Farbe:
+  weiss       77.0 cm2
+  rot         10.8 cm2
+  schwarz     26.4 cm2

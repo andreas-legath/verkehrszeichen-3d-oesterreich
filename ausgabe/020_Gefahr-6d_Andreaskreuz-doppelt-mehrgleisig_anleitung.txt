@@ -1,0 +1,30 @@
+6d: Andreaskreuz doppelt (mehrgleisig)  (Gefahrenzeichen_6d_doppelt.svg)
+Nr. 20 in --liste, Groesse 76 x 190 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 020_Gefahr-6d_Andreaskreuz-doppelt-mehrgleisig_Stufen.stl
+Dicke 1.2-1.8 mm, ca. 15 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  ROT
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 020_Gefahr-6d_Andreaskreuz-doppelt-mehrgleisig_Multicolor.3mf
+Dicke 3.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 30 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: ROT
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=38.2 / y=95.0 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+ACHTUNG: Die Halterplatte passt nicht ganz auf dieses Schild.
+
+Flaechen je Farbe:
+  weiss       38.6 cm2
+  rot         41.1 cm2
