@@ -1,0 +1,29 @@
+c: Ankündigung des Zeichens Stop (Halt)  (Zusatztafel_c.svg)
+Nr. 190 in --liste, Groesse 210 x 103 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 190_Zusatz-c_Ankuendigung-des-Zeichens-Stop-Halt_Stufen.stl
+Dicke 1.2-1.8 mm, ca. 34 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 190_Zusatz-c_Ankuendigung-des-Zeichens-Stop-Halt_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 53 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=51.4 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss      185.9 cm2
+  schwarz     29.3 cm2

@@ -1,0 +1,32 @@
+  (Auf_Pfeifsignal_achten.svg)
+Nr. 201 in --liste, Groesse 210 x 139 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 201_Auf-Pfeifsignal-achten_Stufen.stl
+Dicke 1.2-2.4 mm, ca. 53 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  GRAU
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 201_Auf-Pfeifsignal-achten_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 72 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: GRAU
+  Slot 3: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=69.3 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss      215.2 cm2
+  grau        21.5 cm2
+  schwarz     52.6 cm2

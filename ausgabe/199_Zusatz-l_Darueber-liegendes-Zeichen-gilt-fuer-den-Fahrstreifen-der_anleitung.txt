@@ -1,0 +1,29 @@
+l: Darüber liegendes Zeichen gilt für den Fahr­streifen, der links an der Trennungs­einrichtung vorbeiführt  (Zusatztafel_l.svg)
+Nr. 199 in --liste, Groesse 210 x 163 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 199_Zusatz-l_Darueber-liegendes-Zeichen-gilt-fuer-den-Fahrstreifen-der_Stufen.stl
+Dicke 1.2-1.8 mm, ca. 54 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 199_Zusatz-l_Darueber-liegendes-Zeichen-gilt-fuer-den-Fahrstreifen-der_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 84 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=81.4 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss      300.9 cm2
+  schwarz     39.9 cm2

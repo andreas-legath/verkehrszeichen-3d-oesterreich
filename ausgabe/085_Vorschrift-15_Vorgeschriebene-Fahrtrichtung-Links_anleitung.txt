@@ -1,0 +1,29 @@
+15: Vorgeschriebene Fahrtrichtung: Links  (Vorschriftszeichen_15_links.svg)
+Nr. 85 in --liste, Groesse 190 x 190 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 085_Vorschrift-15_Vorgeschriebene-Fahrtrichtung-Links_Stufen.stl
+Dicke 1.2-1.8 mm, ca. 59 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  BLAU
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 085_Vorschrift-15_Vorgeschriebene-Fahrtrichtung-Links_Multicolor.3mf
+Dicke 3.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 105 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: BLAU
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=95.0 / y=95.0 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss       56.4 cm2
+  blau       227.2 cm2

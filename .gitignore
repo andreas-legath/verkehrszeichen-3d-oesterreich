@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Heruntergeladene Wikimedia-Daten (werden beim Lauf automatisch neu geladen)
+cache/
+
+# Slicer-Ausgabe (drucker- und filamentspezifisch, gross)
+*.gcode
+*.bgcode
+*.gcode.3mf
+
+# Private Vorschau mit persoenlicher Beschriftung
+vorschau_beschriftung.png
+
+# Erzeugte Druckdateien - einkommentieren, falls ausgabe/ nicht ins Repo soll
+# ausgabe/
+
+# Windows / OneDrive
+Thumbs.db
+desktop.ini
+~$*
+
+# Editor
+.vscode/
+.idea/

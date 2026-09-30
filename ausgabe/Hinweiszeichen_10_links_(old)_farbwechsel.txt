@@ -1,0 +1,20 @@
+10: Einbahn (links)  (Hinweiszeichen_10_links_(old).svg)
+Groesse 190 x 67 mm, Dicke 1.2-2.4 mm, ca. 17 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  ROT
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=110.8 / y=22.9 mm vom linken unteren Eck (Flaechenschwerpunkt).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss       41.9 cm2
+  rot         37.5 cm2
+  schwarz      6.6 cm2
+
+HINWEIS: Das Schild ist niedriger als die Halterplatte. Platte oben buendig (Rillen markieren die Seiten), sie ragt unten 19 mm heraus.

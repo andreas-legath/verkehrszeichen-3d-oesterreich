@@ -1,0 +1,33 @@
+10: Einbahnstraße (Fahrtrichtung rechts)  (Hinweiszeichen_10_rechts_(2010).svg)
+Nr. 143 in --liste, Groesse 210 x 72 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 143_Hinweis-10_Einbahnstrasse-Fahrtrichtung-rechts_Stufen.stl
+Dicke 1.2-2.4 mm, ca. 31 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  BLAU
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 143_Hinweis-10_Einbahnstrasse-Fahrtrichtung-rechts_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 37 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: BLAU
+  Slot 3: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=28.0 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+HINWEIS: Das Schild ist niedriger als die Halterplatte. Platte oben buendig (Rillen markieren die Seiten), sie ragt unten 14 mm heraus.
+
+Flaechen je Farbe:
+  weiss       57.9 cm2
+  blau        69.1 cm2
+  schwarz     23.6 cm2

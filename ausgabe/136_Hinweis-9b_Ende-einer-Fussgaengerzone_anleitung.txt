@@ -1,0 +1,35 @@
+9b: Ende einer Fußgängerzone  (Hinweiszeichen_9b_(2010).svg)
+Nr. 136 in --liste, Groesse 142 x 190 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 136_Hinweis-9b_Ende-einer-Fussgaengerzone_Stufen.stl
+Dicke 1.2-3.0 mm, ca. 60 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  BLAU
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  ROT
+Farbwechsel vor Schicht  13  (Z = 2.4 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 136_Hinweis-9b_Ende-einer-Fussgaengerzone_Multicolor.3mf
+Dicke 3.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 100 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: BLAU
+  Slot 3: ROT
+  Slot 4: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=70.9 / y=95.0 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss       75.9 cm2
+  blau       134.6 cm2
+  rot         43.3 cm2
+  schwarz     15.2 cm2

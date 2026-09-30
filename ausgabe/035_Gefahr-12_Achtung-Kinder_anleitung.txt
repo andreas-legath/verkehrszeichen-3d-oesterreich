@@ -1,0 +1,32 @@
+12: Achtung Kinder  (Gefahrenzeichen_12.svg)
+Nr. 35 in --liste, Groesse 210 x 183 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 035_Gefahr-12_Achtung-Kinder_Stufen.stl
+Dicke 1.2-2.4 mm, ca. 43 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  ROT
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 035_Gefahr-12_Achtung-Kinder_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 51 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: ROT
+  Slot 3: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=62.9 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss       62.7 cm2
+  rot        117.6 cm2
+  schwarz     25.1 cm2

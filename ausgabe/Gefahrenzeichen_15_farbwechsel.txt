@@ -1,0 +1,20 @@
+15: Vorankündigung eines Lichtzeichens  (Gefahrenzeichen_15.svg)
+Groesse 180 x 157 mm, Dicke 1.2-3.0 mm, ca. 43 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  GELB
+Farbwechsel vor Schicht  10  (Z = 1.8 mm)  ->  GRUEN
+Farbwechsel vor Schicht  13  (Z = 2.4 mm)  ->  ROT
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=90.0 / y=53.9 mm vom linken unteren Eck (Flaechenschwerpunkt).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss       54.7 cm2
+  gelb         3.3 cm2
+  gruen        3.3 cm2
+  rot         89.6 cm2

@@ -1,0 +1,29 @@
+i: Zugmaschinen, Motorkarren, selbst­fahrende Arbeits­maschinen und vierrädrige Leicht­kraftfahrzeuge dürfen überholt werden  (Zusatztafel_i.svg)
+Nr. 196 in --liste, Groesse 210 x 139 mm
+
+=== STUFEN-MODELL (Einzel-Extruder mit Farbwechsel): 196_Zusatz-i_Zugmaschinen-Motorkarren-selbstfahrende-Arbeitsmaschinen-und_Stufen.stl
+Dicke 1.2-1.8 mm, ca. 48 g PLA
+Schichthoehe 0.2 mm (auch die erste Schicht!), Rueckseite liegt auf dem Druckbett.
+
+Start mit Farbe: WEISS
+Farbwechsel vor Schicht   7  (Z = 1.2 mm)  ->  SCHWARZ
+
+Cura: Erweiterungen > Nachbearbeitung > Skript hinzufuegen > 'Filament Change'
+      (oder 'Pause at height'), je Farbwechsel ein Eintrag mit der Schichtnummer.
+
+=== MULTICOLOR-MODELL (Bambu Studio / OrcaSlicer, AMS): 196_Zusatz-i_Zugmaschinen-Motorkarren-selbstfahrende-Arbeitsmaschinen-und_Multicolor.3mf
+Dicke 2.0 mm, Farbschicht 0.6 mm (3 Schichten a 0.2 mm), ca. 72 g PLA
+VORDERSEITE liegt auf dem Druckbett (Rillen fuer Teil B oben) - die Oberflaeche der Druckplatte
+(glatt / strukturiert) bestimmt das Aussehen der Sichtseite.
+
+Filament-Slots (im Slicer bereits zugeordnet, nur passende Farben in die Slots legen):
+  Slot 1: WEISS  (Grundkoerper)
+  Slot 2: SCHWARZ
+
+=== HALTERPLATTE (beide Modelle)
+Rueckseite: Rille = Umriss der Halterplatte (Teil B), Mitte bei x=105.0 / y=69.3 mm vom linken unteren Eck (Flaechenschwerpunkt, Blick auf die Vorderseite).
+Teil B mit der offenen Nut nach UNTEN einlegen und verkleben.
+
+Flaechen je Farbe:
+  weiss      226.0 cm2
+  schwarz     64.3 cm2
